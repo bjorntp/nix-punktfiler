@@ -81,9 +81,9 @@
           "audio"
           "networkmanager"
         ];
-      }
-    }
-  }
+      };
+    };
+  };
   
   services = {
     openssh = {
