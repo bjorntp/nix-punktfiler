@@ -38,7 +38,7 @@
 
   environment.sessionVariables = {
     EDITOR = "lvim";
-  }
+  };
 
   fonts.packages = with pkgs; [
     (nerdfonts.override {
