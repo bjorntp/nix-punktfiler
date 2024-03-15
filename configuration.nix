@@ -18,6 +18,7 @@
     xclip
     vim
     lunarvim
+    firefox
   ];
 
   nixpkgs = {
