@@ -67,6 +67,7 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true; 
   networking.hostName = "nixos";
+  networking.networkmanager.enable = true;
   console.keyMap = "sv-latin1";
   programs.zsh.enable = true;
 
